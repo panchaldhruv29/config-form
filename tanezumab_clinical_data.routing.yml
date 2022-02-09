@@ -1,0 +1,324 @@
+tanezumab_clinical_data.oa_hip_or_knee:
+  path: '/oa-hip-or-knee'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::oaHipOrKnee'
+    _title: 'Osteoarthritis in the Hip or Knee'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.mode_of_action:
+  path: '/mode-of-action'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::modeOfAction'
+    _title: 'Mode of Action'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1056:
+  path: '/study-1056'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1056'
+    _title: 'Study 1056'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1057:
+  path: '/study-1057'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1057'
+    _title: 'Study 1057'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'    
+tanezumab_clinical_data.study_1027:
+  path: '/study-1027'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1027'
+    _title: 'Study 1027'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1030:
+  path: '/study-1030'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1030'
+    _title: 'Study 1030'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.form:
+  path: '/tanezumab/settings'
+  defaults:
+    _form: '\Drupal\tanezumab_clinical_data\Form\CustomTanezumabAdminSettingsForm'
+    _title: 'Tanezumab Admin Settings form'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+tanezumab_clinical_data.study_information_1056:
+  path: '/study-1056/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1056'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_1027:
+  path: '/study-1027/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1027'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_1030:
+  path: '/study-1030/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1030'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_1057:
+  path: '/study-1057/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1057'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1018:
+  path: '/study-1018'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1018'
+    _title: 'Study 1018'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_1018:
+  path: '/study-1018/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1018'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1025:
+  path: '/study-1025'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1025'
+    _title: 'Study 1025'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_1025:
+  path: '/study-1025/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1025'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1017:
+  path: '/study-1017'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1017'
+    _title: 'Study 1017'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_1017:
+  path: '/study-1017/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1017'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1016:
+  path: '/study-1016'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1016'
+    _title: 'Study 1016'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_1016:
+  path: '/study-1016/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1016'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1015:
+  path: '/study-1015'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1015'
+    _title: 'Study 1015'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_1015:
+  path: '/study-1015/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1015'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1014:
+  path: '/study-1014'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1014'
+    _title: 'Study 1014'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_1014:
+  path: '/study-1014/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1014'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1011:
+  path: '/study-1011'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1011'
+    _title: 'Study 1011'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_1011:
+  path: '/study-1011/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1011'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1064:
+  path: '/study-1064'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1064'
+    _title: 'Study 1064'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_pooled_efficacy:
+  path: '/pooled-efficacy'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studypooledefficacy'
+    _title: 'Pooled Efficacy'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_pooled_efficacy:
+  path: '/pooled-efficacy/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformationpooledefficacy'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_pooled_pain_diary_index:
+  path: '/pooled-pain-diary-index'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studypooledpaindiaryindex'
+    _title: 'Pooled Pain Diary Index'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_pooled_pain_diary_index:
+  path: '/pooled-pain-diary-index/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformationpooledpaindiaryindex'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_pooled_joint_safety:
+  path: '/pooled-joint-safety'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studypooledjointsafety'
+    _title: 'Pooled Joint Safety'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_pooled_joint_safety:
+  path: '/pooled-joint-safety/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformationpooledjointsafety'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_pooled_general_safety:
+  path: '/pooled-general-safety'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studypooledgeneralsafety'
+    _title: 'Pooled General Safety'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_pooled_general_safety:
+  path: '/pooled-general-safety/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformationpooledgeneralsafety'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_1058:
+  path: '/study-1058'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::study1058'
+    _title: 'Study 1058'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+tanezumab_clinical_data.study_information_1058:
+  path: '/study-1058/study-information'
+  defaults:
+    _controller: 'Drupal\tanezumab_clinical_data\Controller\TanezumabClinicalDataSectionController::studyinformation1058'
+    _title: 'Study Information'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
